@@ -4,7 +4,7 @@ open Lake DSL
 require mathlib from git
   "https://github.com/leanprover-community/mathlib4" @ "v4.23.0-rc2"
 
-package «benchmark» where
+package benchmark where
   leanOptions := #[
     ⟨`autoImplicit, false⟩
   ]
